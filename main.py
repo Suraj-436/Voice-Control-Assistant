@@ -5,6 +5,7 @@ import webbrowser
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
 
+# text to speach function
 def speak(text):
     engine.say(text)
     engine.runAndWait()
